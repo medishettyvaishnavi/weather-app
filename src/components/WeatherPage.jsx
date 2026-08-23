@@ -14,7 +14,7 @@ function WeatherPage() {
 
   const apiKey='9439b99a5395a70e311626f9a6cd7e34'
 
-  //handle search by city
+  //handle search by city name
   const handleSearch=(newCity)=>{
     if(newCity!==null)
     {
@@ -54,7 +54,6 @@ function WeatherPage() {
       }finally{
         setisLoading(false)
       }
-      
   }
   useEffect(()=>{
         fetchData()
