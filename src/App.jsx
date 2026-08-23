@@ -4,8 +4,7 @@ import WeatherPage from './components/WeatherPage'
 
 function App() {
   
-
-  //fetch data 
+  //fetch the data 
   return (
     <div>
       <WeatherPage/>

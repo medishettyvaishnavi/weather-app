@@ -1,6 +1,7 @@
 import React from 'react'
 
 function ForecastDay({data}) {
+
   return (
     <div className='shadow text-center'>
         <img src={`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt=" "/>
